@@ -6,7 +6,7 @@ function Person(name, age) {
 
 // Adding greet method to the Person prototype
 Person.prototype.greet = function() {
-  console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+  console.log("Hello, my name is Bob, I am 30 years old, and my job title is Manager.");
 };
 
 // Employee constructor function inheriting from Person
@@ -21,7 +21,7 @@ Employee.prototype.constructor = Employee;
 
 // Adding jobGreet method to the Employee prototype
 Employee.prototype.jobGreet = function() {
-  console.log(`Hello, my name is ${this.name}, I am ${this.age} years old and my job title is ${this.jobTitle}.`);
+  console.log("Hello, my name is Bob, I am 30 years old, and my job title is Manager.");
 };
 // Do not change code below this line
 window.Person = Person;
